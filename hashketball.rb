@@ -216,8 +216,8 @@ end
 
 def most_points_scored
   game_hash.each do |place, team| 
-    if team[:team_name] == "Charlotte Hornets"
-      return team[:player_name]
+    
+    
   end 
 end 
 end 
