@@ -214,7 +214,7 @@ def big_shoe_rebounds
 end
 
 
-def most_points_scored 
+def most_points_scored(team_name)
   game_hash.each do |place, team| 
     if team[:team_name] == team_name 
       return team[:player_name]
