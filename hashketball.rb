@@ -214,11 +214,10 @@ def big_shoe_rebounds
 end
 
 
-def most_points_scored(team_name)
+def most_points_scored
   game_hash.each do |place, team| 
     if team[:team_name] == "Charlotte Hornets"
       return team[:player_name]
   end 
-end 
 end 
 end 
